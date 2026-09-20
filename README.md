@@ -7,16 +7,24 @@ Django built-in authentication system
 How to start on project on local server :- 
 
 download python 
-python -m venv venv
+
+
+python -m venv venv 
+
+
 venv\scripts\activate
+
 pip install requirements.txt
 
 go to project folder
 
 python manage.py makemigrations
+
 python manage.py migrate
 
+
 create super user 
+
 python manage.py createsuperuser
 
 
